@@ -175,10 +175,3 @@ while len(fib[-1]) != 0:
 print(tabulate(table, headers=head))
 print(f'f - {fun}')
 print(f'f - {int(fun, 2)}')
-'''
-P = str(int(fun, 2)) * 93
-print(len(P))
-file_name = "C:\\Users\\Дмитрий\\OneDrive\\Рабочий стол\\ТПГ\\test4.txt"
-with open(file_name, 'w', encoding='utf8') as file:
-    file.write(P)
-'''
